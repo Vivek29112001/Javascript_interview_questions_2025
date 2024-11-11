@@ -1,0 +1,57 @@
+Basic Understanding of Closures
+What is a closure in JavaScript, and how does it work?
+Why are closures useful in JavaScript?
+How does lexical scoping relate to closures?
+How can closures be used to create private variables?
+Write a basic example of a closure in JavaScript.
+Explain what happens when a closure is created in JavaScript.
+How can closures retain access to outer function variables after the function has finished executing?
+How does JavaScript’s garbage collection handle closures?
+Are closures only created with nested functions?
+Can closures capture variables from a function that is called asynchronously?
+
+##Coding_Exercises
+
+Write a function that returns another function which increments a counter each time it is called.
+Create a closure that maintains a count and returns the current count without exposing it directly.
+Write a function that generates unique IDs using closures.
+Create a "toggle" function that alternates between two values with each call.
+Write a function that tracks and logs how many times a button has been clicked using closures.
+Write a function that multiplies a given number by a fixed multiplier (using closures).
+Create a closure-based timer that starts, pauses, and resets.
+Write a function that returns an array of closures, each printing a different index from 0 to 4.
+Write a function that captures an array element inside a closure and returns it.
+Implement a “once” function that allows a function to be called only once using closures.
+Intermediate Questions
+Explain why closures can lead to memory leaks and how to prevent them.
+Why might closures cause issues in loops, and how can they be fixed?
+How does closure-based encapsulation work, and where is it useful?
+How can closures be used in module patterns for data privacy?
+Explain how closures can be used to cache results of a function.
+Write an example of using closures with asynchronous functions.
+What are some common pitfalls when using closures?
+Describe the concept of “free variables” in closures.
+How can closures be used to throttle or debounce a function?
+Explain how closures are used in event handlers with an example.
+Advanced Questions and Real-World Scenarios
+Implement a function that memoizes results of another function using closures.
+Write a function that creates a countdown timer using closures.
+Describe how closures work in IIFE (Immediately Invoked Function Expressions).
+How do closures work with for loops and let vs. var declarations?
+Create a function that simulates a bank account with deposit and withdrawal methods (using closures).
+How can closures be used to create a custom event handler?
+Explain how closures work in functional programming and how they aid in immutability.
+Write a function that returns the sum of two numbers over multiple calls (e.g., sum(3)(4)).
+Describe a situation where closures might lead to unexpected behavior in asynchronous code.
+How does using closures impact performance in JavaScript?
+Interview Questions with Code Review and Optimization
+Why are closures a common source of memory leaks in JavaScript?
+In what scenarios should closures be avoided, if any?
+Rewrite a function that creates closures in a memory-efficient way.
+What are the advantages of closures over global variables?
+Can closures capture this context? How is it done correctly?
+Describe how closures are used in the module pattern for encapsulation.
+Why might closures be slower in certain cases, and how can this impact large applications?
+How do closures enable currying? Give an example.
+Write a function that creates an arithmetic sequence using closures (e.g., getNext() returns the next value).
+Explain how closures allow partial application of functions, and give a real-world example.
