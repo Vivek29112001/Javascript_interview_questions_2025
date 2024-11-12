@@ -1,1 +1,57 @@
-
+Theory Questions
+What is a Promise in JavaScript?
+Explain the different states of a Promise.
+How does .then() work with Promises?
+What is the purpose of .catch() in Promises?
+Explain the concept of Promise chaining.
+What is the difference between Promise.all, Promise.allSettled, and Promise.race?
+What are async and await in JavaScript, and how do they work?
+How does async/await make handling Promises easier?
+What are the advantages of using async/await over traditional Promises?
+Can await be used outside an async function? Why or why not?
+What happens if an error occurs in an async function, and how is it handled?
+Describe the difference between Promise.reject() and Promise.resolve().
+What does Promise.prototype.finally do?
+How does error handling work in async/await with try...catch?
+Explain how await pauses code execution in an async function.
+What happens if you await a non-Promise value?
+What is a microtask queue, and how does it relate to Promises?
+How do Promise.all and Promise.race behave with async functions?
+How is the event loop involved in handling Promises?
+What are the potential downsides of Promise.all, and how does Promise.allSettled help?
+Can a function be both async and return a Promise? What does that mean?
+What are the possible outcomes of a Promise.all with multiple Promises?
+How does await handle rejections in async functions?
+Describe how you can create a Promise from scratch.
+Explain the concept of concurrency in JavaScript and how it relates to Promises.
+Coding Questions
+Write a function that returns a Promise that resolves after a set timeout.
+javascript
+Copy code
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+Create a function that fetches data from an API and handles errors using async/await.
+Write an async function to sequentially log numbers from 1 to 3 with a 1-second delay between each.
+Convert a function using .then and .catch to use async/await.
+Write an async function that uses Promise.all to fetch data from multiple APIs concurrently.
+Implement a function to simulate a network request with random success/failure using Promises.
+Write an async function that retries a failed API request up to 3 times before throwing an error.
+Convert a callback-based function to return a Promise.
+Write a function that rejects if the Promise takes longer than a specified timeout.
+Create a Promise-based delay function with both success and failure after a set timeout.
+Implement Promise.allSettled for an array of asynchronous operations and log results.
+Write a function that uses Promise.race to fetch data from multiple sources, returning the first response.
+Create an async function that runs multiple tasks concurrently but limits concurrency to 2 tasks at a time.
+Write an async function that performs a sequence of dependent asynchronous operations.
+Convert a synchronous function to an asynchronous one using Promises.
+Implement a Promise that resolves only if two asynchronous tasks both succeed.
+Write a function using Promises to execute tasks in parallel but stop if any task fails.
+Implement a function to create a cancellable Promise.
+Write a function that simulates a retry mechanism using async/await and Promise.
+Create an async function that logs each promise result sequentially even if the tasks are non-blocking.
+Implement a debounce function that returns a Promise.
+Write an async function that processes an array of data using Promise.all with error handling.
+Simulate a chain of asynchronous operations using Promises where each depends on the previous.
+Write an async function that performs two asynchronous tasks, one after another, with error handling.
+Create a function that logs the execution order of setTimeout, Promise, and async/await tasks.
